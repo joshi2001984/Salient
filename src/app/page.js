@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { fetchWpPage,extractAttributeBlocks,getValue,fetchWpImageById } from "@/utils/wpAPI";
+import { fetchWpPage,extractAttributeBlocks,getValue,fetchWpImageById } from "@/utils/wpApi";
 
 import HeroSection from "@/components/heroSection";
 import SecondSection from "@/components/secondSection";

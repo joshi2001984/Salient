@@ -68,14 +68,14 @@ export default function Card() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
           {cards.map((card, index) => {
-            const isActive = activeIndex === index; // 👈 check if card is toggled
+            const isActive = activeIndex === index; 
 
             return (
               <div
                 key={index}
                 className="relative h-[500px] overflow-hidden shadow-lg cursor-pointer group"
                 onClick={() =>
-                  setActiveIndex(isActive ? null : index) // 👈 toggle on tap
+                  setActiveIndex(isActive ? null : index)
                 }
               >
                 <Image
